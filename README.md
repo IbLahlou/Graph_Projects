@@ -11,14 +11,14 @@ Projet de Recherche Opérationnel pour trouver le plus cours chemin
    sous contrainte : 
       $\forall i,j \in \mathbb{R} \ \ x_{ij} >= 0$
       
-$\sum_jx_{ij} - \sum_jx_{ji}=
-\left\{
-  \begin{array}\\
-      1 & \mbox{if } \ i = s;
-      0 & \mbox{if } \ i = t;
-      -2 & \mbox{else.}
-  \end{array}
-\right.$
-   
+$$\sum_jx_{ij} - \sum_jx_{ji}=
+  \begin{cases}
+      1 & \mbox{if } \ i = s; \\
+      0 & \mbox{if } \ i = t;\\
+      -2 & \mbox{else.}\\
+  \end{cases}$$
+  
+![image](https://github.com/IbLahlou/Graph_Projects/assets/105231126/fdb71616-f4f1-4d4c-8bf5-707159817593)
+
 ## 2 - Algortihm de ford-fulkerson
 ## 3 - Algorithme Hangroise
